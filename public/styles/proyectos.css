@@ -1,0 +1,144 @@
+.proyectos-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  max-width: 1400px;
+  margin: 0 auto 2rem auto;
+  padding: 0 2vw;
+  justify-items: stretch;
+}
+
+.proyectos-titulo {
+  margin-top: 80px;
+  color: #25263c;
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.proyecto-card {
+  background: #fff;
+  border: 3px solid #ffe600;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(37, 38, 60, 0.12);
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  overflow: hidden;
+  min-height: 380px; /* Más grande */
+  max-width: 100%;
+}
+
+.proyecto-header {
+  background: #ffe600;
+  color: #222;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0.7rem 1rem;
+  min-height: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.proyecto-img {
+  width: 100%;
+  height: 260px; /* Más grande */
+  object-fit: cover;
+  background: #e0e0e0;
+  border-bottom: 1px solid #ffe600;
+}
+
+.proyecto-card-center {
+  grid-column: 1 / -1;
+  justify-self: center;
+  max-width: 50%;
+}
+
+.aplicaciones-section {
+  margin: 3rem auto 2rem auto;
+  max-width: 1200px;
+  padding: 0 2vw;
+}
+
+.aplicaciones-titulo {
+  color: #25263c;
+  font-size: 2.2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+.aplicaciones-descripcion {
+  color: #444;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.aplicaciones-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.aplicacion-card {
+  background: #f5e7da;
+  border-radius: 0 3rem 0 3rem;
+  box-shadow: 0 2px 8px rgba(37, 38, 60, 0.08);
+  padding: 1.5rem 2rem;
+  color: #25263c;
+  font-size: 1.08rem;
+  border-left: 4px solid #ffe600;
+  border-bottom: 2px solid #ffe600;
+}
+
+.aplicacion-nombre {
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+  color: #25263c;
+}
+
+.aplicacion-detalle a {
+  color: #0077b6;
+  text-decoration: underline;
+  word-break: break-all;
+}
+
+@media (max-width: 900px) {
+  .proyectos-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .proyecto-card-center {
+    max-width: 100%;
+  }
+  .proyecto-img {
+    height: 180px;
+  }
+  .proyecto-card {
+    min-height: 220px;
+  }
+}
+
+@media (max-width: 900px) {
+  .aplicaciones-section {
+    padding: 0 1vw;
+  }
+  .aplicacion-card {
+    padding: 1rem 1rem;
+    font-size: 1rem;
+  }
+  .aplicaciones-titulo {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .aplicacion-card {
+    padding: 0.8rem 0.5rem;
+    font-size: 0.97rem;
+  }
+}
