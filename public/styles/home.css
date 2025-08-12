@@ -1,5 +1,5 @@
 .Titulo {
-  margin-top: 100px; /* Espacio para el navbar fijo */
+  margin-top: 100px;
   color: #25263c;
   font-size: 2.2rem;
   font-weight: bold;
@@ -8,17 +8,16 @@
 }
 
 .texto1 {
-  color: #444;
+  color: #25263c;
   font-size: 1.2rem;
   margin: 1.2rem auto;
   max-width: 600px;
   text-align: center;
-  background: #f5f6fa;
-
+  background: #f5e7da;
 }
 
 .texto-contenedor {
-  background: #f5f6fa;
+  background: #f5e7da;
   padding: 2rem 2rem;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(37, 38, 60, 0.08);
@@ -42,11 +41,8 @@
     padding: 0.8rem 1rem;
     max-width: 95%;
   }
-
-  @media (max-width: 768px) {
   .texto-contenedor {
     padding: 1rem 0.5rem;
     max-width: 98%;
   }
-}
 }
