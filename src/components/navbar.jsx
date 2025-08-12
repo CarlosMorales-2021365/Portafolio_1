@@ -5,7 +5,8 @@ const Navbar = () => (
   <nav className="navbar">
   <div className="navbar-logo">Portafolio Carlor Moales</div>
   <ul className="navbar-links">
-    <li><a href="#about">Sobre mí</a></li>
+    <li><a href="/">Inicio</a></li>
+    <li><a href="/sobremi">Sobre mí</a></li>
     <li><a href="#projects">Proyectos</a></li>
     <li><a href="#skills">Habilidades</a></li>
     <li><a href="#contact">Contacto</a></li>
