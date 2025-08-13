@@ -16,9 +16,8 @@ const Habilidades = () => {
         <br />
         <div>Comenzando por la creación de 
         aplicaciones en consola utilizando java y el patrón Modelo, Vista, Controlador y a conectarlo 
-        con bases de datos relacionales,</div>
-        <div>hasta la creación de apis utilizando lo que es nodejs y 
-        usando bases de datos no relacionales a trabes de mongoDB para mas adelante utilizar react 
+        con bases de datos relacionales,hasta la creación de apis utilizando lo que es nodejs y 
+        usando bases de datos no relacionales a traves de mongoDB para mas adelante utilizar react 
         para darle una interfaz de usuario.</div>  
         <br />
         <div>​Como experiencia puedo resaltar mis practicas en las 
