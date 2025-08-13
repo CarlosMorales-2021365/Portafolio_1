@@ -2,15 +2,16 @@ import React from "react";
 import "../../public/styles/graficas.css";
 
 const skills = [
-  { name: "HTML", percent: 55, color: "#f9a825" },
-  { name: "CSS", percent: 30, color: "#005b8a" },
   { name: "JavaScript", percent: 70, color: "#00cfff" },
-  { name: "React", percent: 65, color: "#ff6f6f" },
-  { name: "Express", percent: 70, color: "#f9a825" },
   { name: "MongoDB", percent: 70, color: "#005b8a" },
-  { name: "NodeJS", percent: 70, color: "#00cfff"},
-  { name: "Java", percent: 30, color: "#ff6f6f" },
-  { name: "MySQL", percent: 25, color: "#f9a825" },
+  { name: "Express", percent: 70, color: "#f9a825" },
+  { name: "React", percent: 65, color: "#ff6f6f" },
+  { name: "NodeJS", percent: 65, color: "#00cfff" },
+  { name: "Github", percent: 60, color: "#ff6f6f" },
+  { name: "HTML", percent: 55, color: "#005b8a" },
+  { name: "Java", percent: 50, color: "#ff6f6f" },
+  { name: "MySQL", percent: 45, color: "#00cfff" },
+  { name: "CSS", percent: 40, color: "#f9a825" },
 ];
 
 const Graficas = () => (
