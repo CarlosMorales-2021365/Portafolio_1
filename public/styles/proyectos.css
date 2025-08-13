@@ -20,7 +20,7 @@
 
 .proyecto-card {
   background: #fff;
-  border: 3px solid #ffe600;
+  border: 3px solid #ffb347;
   border-radius: 12px;
   box-shadow: 0 2px 12px rgba(37, 38, 60, 0.12);
   display: flex;
@@ -32,7 +32,7 @@
 }
 
 .proyecto-header {
-  background: #ffe600;
+  background: #ffb347;
   color: #222;
   font-weight: bold;
   font-size: 1.2rem;
@@ -47,7 +47,6 @@
   height: 260px; /* Más grande */
   object-fit: cover;
   background: #e0e0e0;
-  border-bottom: 1px solid #ffe600;
 }
 
 .proyecto-card-center {
@@ -91,8 +90,8 @@
   padding: 1.5rem 2rem;
   color: #25263c;
   font-size: 1.08rem;
-  border-left: 4px solid #ffe600;
-  border-bottom: 2px solid #ffe600;
+  border-left: 4px solid #ffb347;
+  border-bottom: 2px solid #ffb347;
 }
 
 .aplicacion-nombre {
