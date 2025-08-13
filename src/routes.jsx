@@ -2,6 +2,7 @@ import Homepage from "./pages/Homepage.jsx";
 import SobreMi from "./pages/sobreMi.jsx";
 import Proyectos from "./pages/proyectos.jsx";
 import Habilidades from "./pages/habilidades.jsx";
+import Contacto from "./pages/contacto.jsx";
 
 export const routes = [
     {
@@ -19,5 +20,9 @@ export const routes = [
     {
         path: "/habilidades",
         element: <Habilidades />
+    },
+    {
+        path: "/contacto",
+        element: <Contacto />
     },
 ];

@@ -1,0 +1,95 @@
+.contacto-container {
+  max-width: 700px;
+  margin: 100px auto 2rem auto;
+  background: #f5e7da;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(37, 38, 60, 0.08);
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contacto-titulo {
+  color: #25263c;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.contacto-descripcion {
+  color: #25263c;
+  font-size: 1.15rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.contacto-perfiles {
+  display: flex;
+  flex-direction: column; /* Siempre en columna */
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.contacto-perfil {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(37, 38, 60, 0.10);
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  min-width: 200px;
+}
+
+.contacto-perfil-titulo {
+  color: #25263c;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.contacto-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(37, 38, 60, 0.10);
+  background: #fff;
+  object-fit: contain;
+  transition: transform 0.2s;
+}
+
+.contacto-img.transdoc {
+  width: 900px;
+  height: 900px;
+}
+
+.contacto-img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 4px 16px rgba(37, 38, 60, 0.15);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .contacto-container {
+    padding: 1rem 0.5rem;
+    max-width: 98vw;
+  }
+  .contacto-perfiles {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .contacto-perfil {
+    padding: 1.2rem 1rem;
+    min-width: unset;
+  }
+  .contacto-img {
+    width: 70px;
+    height: 70px;
+  }
+}
